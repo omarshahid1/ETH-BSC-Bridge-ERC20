@@ -20,14 +20,14 @@ Steps to run the project:
 - truffle migrate --reset --network ethTestnet
 - truffle migrate --reset --network bscTestnet
 
-7. In the same terminal, run the following scripts to check the initial balaance:
+7. In the same terminal, run the following scripts to check the initial balance:
 - truffle exec scripts/eth-token-balance.js --network ethTestnet
 - truffle exec scripts/bsc-token-balance.js --network bscTestnet
 
 8. Now in a new terminal, run this command to deploy the Bridge:
 - node scripts/eth-bsc-bridge.js
 
-9. Then in the previous terminal, run the following scripts for transfer and check the updated balance:
+9. Then in the previous terminal, run the following scripts to transfer and check the updated balance:
 - truffle exec scripts/eth-bsc-transfer.js --network ethTestnet
 - truffle exec scripts/eth-token-balance.js --network ethTestnet
 - truffle exec scripts/bsc-token-balance.js --network bscTestnet
