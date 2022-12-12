@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = 'couch gasp south ship tornado country already bag bright bubble tooth coin';
+const mnemonic = 'couch gasp south ship tornado tyres already bag bright bubble tooth car';
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
@@ -64,7 +64,7 @@ module.exports = {
     ethTestnet: {
       provider: () => new HDWalletProvider(
         mnemonic, 
-        'wss://eth-goerli.g.alchemy.com/v2/T855krp2c3WWQUwq7adloLaJNjTzWaAl',
+        'wss://eth-goerli.g.alchemy.com/v2/T855krp2c3WWQUwq7adloLaJNjTzWaAe',
         0,
         1
       ),
