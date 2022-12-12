@@ -8,7 +8,7 @@ Steps to run the project:
 2. Clone the repository.
 
 3. Install the dependencies using the following command: 
-- npm i.
+- npm i
 
 4. Change the mnemonic with your own Metamask wallet mnemonic in the truffle-config.js file.
 
