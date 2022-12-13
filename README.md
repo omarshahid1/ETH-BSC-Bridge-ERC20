@@ -1,7 +1,7 @@
-Note: The instructions given below are for Ubuntu 22.04 LTS (users only).
+**Note: The instructions given below are for Ubuntu 22.04 LTS (users only).**
 
 
-Steps to run the project:
+**Steps to run the project:**
 
 1. This is a Truffle Project.
 
@@ -15,7 +15,7 @@ Steps to run the project:
 
 5. Also change the Alchemy Key with your own Alchemy Key in the truffle-config.js file.
    This is for the Eth-Testnet (Goerli)
-- Example: ```'wss://eth-goerli.g.alchemy.com/v2/T855krp2c3WWQUwq7adloNjTzWaAe'```
+- Example: ```'wss://eth-goerli.g.alchemy.com/v2/T855krp2c3WWQUwq7adloNTzWaAe'```
 
 6. Now deploy the project on both the chains using following commands:
 - ```truffle migrate --reset --network ethTestnet```
